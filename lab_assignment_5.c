@@ -10,7 +10,7 @@ typedef struct node {
 // Returns number of nodes in the linkedList.
 int length(node* head)
 {
-	int len = ;
+	int len = 0;
 	struct node* counter = head;
 	while(counter != NULL)
 	{
